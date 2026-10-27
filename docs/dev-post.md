@@ -1,12 +1,12 @@
 <!--
 PUBLISHING CHECKLIST (this comment will not render on DEV)
 
-1. Cover image: upload docs/screenshots/ofrenda.png (or public/og.png).
+1. Cover image: upload public/og.png, or paste this URL if the field accepts one:
+   https://cdn.jsdelivr.net/gh/soumwadeep/ghostlight@main/public/og.png
 2. Title: "Ghostlight: a ghost that refuses to lie"
 3. Tags (DEV allows 4): #devchallenge #hf26challenge #opensource #webgpu
    (the first two are required by the challenge template)
-4. Upload the images where marked: docs/screenshots/ofrenda.png, studio.png,
-   gemma-live.png, gemma-ask.png, keepsake.png, landing.png
+4. The inline images already use public, absolute CDN URLs — no upload needed. Cover: see step 1.
 5. Fill the two bracketed spots:
    - Demo section: your Render URL (deploy first, see README) or your screen recording link
    - "The Spirit of It": one true sentence about the person you thought of, if you want it
@@ -19,7 +19,7 @@ PUBLISHING CHECKLIST (this comment will not render on DEV)
 
 # Ghostlight: a ghost that refuses to lie
 
-![The finished ofrenda: six candles, a portrait, marigolds, water, and the offerings from the answers](docs/screenshots/ofrenda.png)
+![The finished ofrenda: six candles, a portrait, marigolds, water, and the offerings from the answers](https://cdn.jsdelivr.net/gh/soumwadeep/ghostlight@main/docs/screenshots/ofrenda.png)
 
 ## What I Built
 
@@ -137,9 +137,9 @@ Two more decisions I'd keep:
 
 **Verified, not claimed.** On a desktop Chrome with WebGPU: the model downloaded **1.4 GB in about two minutes**, wrote a three-paragraph remembrance from six memories in **13.6 seconds on-device**, and answered a grounded question in **1.9 seconds** with a citation attached. The app is a PWA, so after the first run the shell and the model are cached and it works offline. The keepsake export is a 321 KB HTML file with **zero `<script>` tags**. 21 unit tests cover parsing, candle-mode weaving, retrieval refusals, and keepsake escaping.
 
-![A remembrance written on-device by Gemma 2, with the honesty note and the header badge reading "Gemma · lit"](docs/screenshots/gemma-live.png)
+![A remembrance written on-device by Gemma 2, with the honesty note and the header badge reading "Gemma · lit"](https://cdn.jsdelivr.net/gh/soumwadeep/ghostlight@main/docs/screenshots/gemma-live.png)
 
-![A grounded answer with its citation, answered by the model in 1.9s](docs/screenshots/gemma-ask.png)
+![A grounded answer with its citation, answered by the model in 1.9s](https://cdn.jsdelivr.net/gh/soumwadeep/ghostlight@main/docs/screenshots/gemma-ask.png)
 
 ## Why Does Open Innovation Matter?
 
