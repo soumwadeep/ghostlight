@@ -1,0 +1,50 @@
+{
+  "name": "ghostlight",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc -b",
+    "verify:gemma": "node scripts/verify-gemma.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/instrument-sans": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@mlc-ai/web-llm": "^0.2.86",
+    "idb-keyval": "^6.3.0",
+    "lucide-react": "^1.61.0",
+    "motion": "^14.6.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "oxlint": "^1.88.0",
+    "playwright": "^1.64.1",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.5"
+  },
+  "description": "A local-first remembrance studio for D\u00eda de Muertos. Gemma 2 runs entirely in your browser; your memories never leave your device.",
+  "license": "MIT",
+  "author": "Soumwadeep Guha",
+  "homepage": "https://github.com/soumwadeep/ghostlight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soumwadeep/ghostlight.git"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
