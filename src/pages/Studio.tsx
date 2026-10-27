@@ -888,7 +888,7 @@ function WeaveStep({
           )}
 
           <p className="tiny-label weave-privacy">
-            Grounded in {pluralize(answered.length, 'memory')} · Nothing uploaded
+            Grounded in {pluralize(answered.length, 'memory', 'memories')} · Nothing uploaded
           </p>
         </aside>
       </div>
